@@ -1,0 +1,151 @@
+Sample ID,Sample Details,Test,Results,Units,Absorbance,QC Pro result,Operator,Man Dil Factor,Auto Dil Factor,Date and Time
+Standard 1,,Nitrate 5 KCl,  0.005,mg N/L,0.004627, ,WA,1,1,2019-07-23 17:36:39
+Standard 1,,Ammonia 10 KCl,  0.085,mg N/L,0.085301, ,WA,1,1,2019-07-23 12:07:45
+Standard 90,,Nitrate 5 KCl,  0.051,mg N/L,0.050729, ,WA,1,1,2019-07-23 17:38:57
+Standard 90,,Ammonia 10 KCl,  0.199,mg N/L,0.198966, ,WA,1,1,2019-07-23 12:09:59
+Standard 91,,Nitrate 5 KCl,  0.119,mg N/L,0.119325, ,WA,1,1,2019-07-23 17:41:16
+Standard 91,,Ammonia 10 KCl,  0.330,mg N/L,0.330128, ,WA,1,1,2019-07-23 12:12:12
+Standard 92,,Nitrate 5 KCl,  0.233,mg N/L,0.232907, ,WA,1,1,2019-07-23 17:43:34
+Standard 92,,Ammonia 10 KCl,  0.549,mg N/L,0.549200, ,WA,1,1,2019-07-23 12:14:24
+Standard 93,,Nitrate 5 KCl,  0.340,mg N/L,0.339798, ,WA,1,1,2019-07-23 17:45:53
+Standard 93,,Ammonia 10 KCl,  0.798,mg N/L,0.797971, ,WA,1,1,2019-07-23 12:16:37
+Standard 94,,Nitrate 5 KCl,  0.467,mg N/L,0.467227, ,WA,1,1,2019-07-23 17:48:11
+Standard 94,,Ammonia 10 KCl,  1.008,mg N/L,1.008105, ,WA,1,1,2019-07-23 12:18:49
+Standard 0,,Nitrate 5 KCl,  0.008,mg N/L,0.008138, ,WA,1,1,2019-07-23 17:50:30
+Standard 0,,Ammonia 10 KCl,  0.091,mg N/L,0.091044, ,WA,1,1,2019-07-23 12:21:02
+CCV,,Nitrate 5 KCl,  4.812,mg N/L,0.444618,0.00,WA,1,1,2019-07-23 17:52:48
+CCB,,Nitrate 5 KCl,  0.045,mg N/L,0.008252,0.00,WA,1,1,2019-07-23 17:55:09
+NO2 1 mg L,,Nitrate 5 KCl,  1.489,mg N/L,0.140393, ,WA,1,1,2019-07-23 17:57:29
+NO3 1 mg L,,Nitrate 5 KCl,  1.012,mg N/L,0.096713, ,WA,1,1,2019-07-23 17:59:48
+CCV,,Ammonia 10 KCl,  9.700,mg N/L,0.988213,0.00,WA,1,1,2019-07-23 12:23:15
+CCB,,Ammonia 10 KCl, -0.041,mg N/L,0.089173,0.00,WA,1,1,2019-07-23 12:25:28
+KCl analytical,,Nitrate 5 KCl,  0.050,mg N/L,0.008683, ,WA,1,1,2019-07-23 18:02:07
+KCl analytical,,Ammonia 10 KCl, -0.035,mg N/L,0.089760, ,WA,1,1,2019-07-23 12:27:42
+22.31.post.c,,Nitrate 5 KCl, 15.980,mg N/L,0.369811, ,WA,1,4.00,2019-07-23 20:58:09
+22.31.post.c,,Ammonia 10 KCl,  0.642,mg N/L,0.152221, ,WA,1,1,2019-07-23 12:29:55
+24.37.post.c,,Nitrate 5 KCl, 10.593,mg N/L,0.325306, ,WA,1,3.02,2019-07-23 21:00:33
+24.37.post.c,,Ammonia 10 KCl,  0.719,mg N/L,0.159321, ,WA,1,1,2019-07-23 12:32:08
+41.49.post.c,,Nitrate 5 KCl,  6.980,mg N/L,0.215744, ,WA,1,3.02,2019-07-23 21:02:58
+41.49.post.c,,Ammonia 10 KCl,  1.724,mg N/L,0.252123, ,WA,1,1,2019-07-23 12:34:22
+50.55.pre.c,,Nitrate 5 KCl,  0.052,mg N/L,0.008852, ,WA,1,1,2019-07-23 18:11:22
+50.55.pre.c,,Ammonia 10 KCl,  1.245,mg N/L,0.207871, ,WA,1,1,2019-07-23 12:36:36
+50.55.post.c,,Nitrate 5 KCl,  0.072,mg N/L,0.010678, ,WA,1,1,2019-07-23 18:13:42
+50.55.post.c,,Ammonia 10 KCl,  5.217,mg N/L,0.574424, ,WA,1,1,2019-07-23 12:38:50
+58.61.pre.c,,Nitrate 5 KCl,  0.052,mg N/L,0.008860, ,WA,1,1,2019-07-23 18:16:01
+58.61.pre.c,,Ammonia 10 KCl,  0.365,mg N/L,0.126644, ,WA,1,1,2019-07-23 12:41:03
+58.61.post.c,,Nitrate 5 KCl,  0.055,mg N/L,0.009115, ,WA,1,1,2019-07-23 18:18:20
+58.61.post.c,,Ammonia 10 KCl,  3.058,mg N/L,0.375150, ,WA,1,1,2019-07-23 12:43:16
+CCV,,Nitrate 5 KCl,  5.318,mg N/L,0.490936,0.00,WA,1,1,2019-07-23 18:20:40
+CCB,,Nitrate 5 KCl,  0.062,mg N/L,0.009765,0.00,WA,1,1,2019-07-23 18:23:00
+100.67.pre.c,,Nitrate 5 KCl,  0.577,mg N/L,0.056895, ,WA,1,1,2019-07-23 18:25:21
+100.67.pre.c,,Ammonia 10 KCl,  0.677,mg N/L,0.155429, ,WA,1,1,2019-07-23 12:45:30
+100.67.post.c,,Nitrate 5 KCl,  7.672,mg N/L,0.236724, ,WA,1,3.02,2019-07-23 21:05:22
+100.67.post.c,,Ammonia 10 KCl,  0.176,mg N/L,0.109231, ,WA,1,1,2019-07-23 12:47:43
+CCV,,Ammonia 10 KCl,  9.314,mg N/L,0.952540,0.00,WA,1,1,2019-07-23 12:49:56
+CCB,,Ammonia 10 KCl, -0.108,mg N/L,0.082959,0.00,WA,1,1,2019-07-23 12:52:10
+KCl blank 1 m,,Nitrate 5 KCl,  0.057,mg N/L,0.009324, ,WA,1,1,2019-07-23 18:30:00
+KCl blank 1 m,,Ammonia 10 KCl,  0.306,mg N/L,0.121251, ,WA,1,1,2019-07-23 12:54:23
+KCl blank 1test a,,Nitrate 5 KCl,  0.032,mg N/L,0.007059, ,WA,1,1,2019-07-23 18:32:19
+KCl blank 1test a,,Ammonia 10 KCl,  0.081,mg N/L,0.100484, ,WA,1,1,2019-07-23 12:56:36
+22.31.post.d,,Nitrate 5 KCl, 16.194,mg N/L,0.374710, ,WA,1,4.00,2019-07-23 21:07:47
+22.31.post.d,,Ammonia 10 KCl,  0.562,mg N/L,0.144853, ,WA,1,1,2019-07-23 12:58:49
+24.37.post.d,,Nitrate 5 KCl, 10.053,mg N/L,0.308921, ,WA,1,3.02,2019-07-23 21:10:11
+24.37.post.d,,Ammonia 10 KCl,  0.610,mg N/L,0.149270, ,WA,1,1,2019-07-23 13:01:03
+41.49.post.d,,Nitrate 5 KCl,  7.608,mg N/L,0.234803, ,WA,1,3.02,2019-07-23 21:12:35
+41.49.post.d,,Ammonia 10 KCl,  1.520,mg N/L,0.233210, ,WA,1,1,2019-07-23 13:03:17
+50.55.pre.d,,Nitrate 5 KCl,  0.071,mg N/L,0.010592, ,WA,1,1,2019-07-23 18:41:35
+50.55.pre.d,,Ammonia 10 KCl,  1.123,mg N/L,0.196600, ,WA,1,1,2019-07-23 13:05:30
+50.55.post.d,,Nitrate 5 KCl,  0.075,mg N/L,0.010918, ,WA,1,1,2019-07-23 18:43:53
+50.55.post.d,,Ammonia 10 KCl,  5.033,mg N/L,0.557423, ,WA,1,1,2019-07-23 13:07:43
+58.61.pre.d,,Nitrate 5 KCl,  0.050,mg N/L,0.008628, ,WA,1,1,2019-07-23 18:46:12
+58.61.pre.d,,Ammonia 10 KCl,  0.357,mg N/L,0.125914, ,WA,1,1,2019-07-23 13:09:55
+CCV,,Nitrate 5 KCl,  4.957,mg N/L,0.457898,0.00,WA,1,1,2019-07-23 18:48:30
+CCB,,Nitrate 5 KCl,  0.048,mg N/L,0.008499,0.00,WA,1,1,2019-07-23 18:50:51
+58.61.post.d,,Nitrate 5 KCl,  0.042,mg N/L,0.007901, ,WA,1,1,2019-07-23 18:53:13
+58.61.post.d,,Ammonia 10 KCl,  3.053,mg N/L,0.374711, ,WA,1,1,2019-07-23 13:12:07
+100.67.pre.d,,Nitrate 5 KCl,  0.498,mg N/L,0.049683, ,WA,1,1,2019-07-23 18:55:31
+100.67.pre.d,,Ammonia 10 KCl,  0.789,mg N/L,0.165796, ,WA,1,1,2019-07-23 13:14:19
+CCV,,Ammonia 10 KCl,  9.410,mg N/L,0.961455,0.00,WA,1,1,2019-07-23 13:16:32
+CCB,,Ammonia 10 KCl, -0.077,mg N/L,0.085835,0.00,WA,1,1,2019-07-23 13:18:44
+100.67.post.d,,Nitrate 5 KCl,  7.882,mg N/L,0.243102, ,WA,1,3.02,2019-07-23 21:13:44
+100.67.post.d,,Ammonia 10 KCl,  0.243,mg N/L,0.115390, ,WA,1,1,2019-07-23 13:20:57
+KCl blank 2 m,,Nitrate 5 KCl,  0.044,mg N/L,0.008092, ,WA,1,1,2019-07-23 19:00:08
+KCl blank 2 m,,Ammonia 10 KCl,  0.122,mg N/L,0.104259, ,WA,1,1,2019-07-23 13:23:10
+KCl blank 1test b,,Nitrate 5 KCl,  0.036,mg N/L,0.007410, ,WA,1,1,2019-07-23 19:02:27
+KCl blank 1test b,,Ammonia 10 KCl,  0.107,mg N/L,0.102874, ,WA,1,1,2019-07-23 13:25:22
+100_3_pre_a,,Nitrate 5 KCl,  0.953,mg N/L,0.091336, ,WA,1,1,2019-07-23 19:04:45
+100_3_pre_a,,Ammonia 10 KCl,  2.044,mg N/L,0.281591, ,WA,1,1,2019-07-23 13:27:36
+22_1_ms_pre_a,,Nitrate 5 KCl,  2.111,mg N/L,0.197356, ,WA,1,1,2019-07-23 19:07:04
+22_1_ms_pre_a,,Ammonia 10 KCl,  2.823,mg N/L,0.353549, ,WA,1,1,2019-07-23 13:29:51
+24_1_ms_post_a,,Nitrate 5 KCl,  5.557,mg N/L,0.172591, ,WA,1,3.02,2019-07-23 21:14:41
+24_1_ms_post_a,,Ammonia 10 KCl,  0.252,mg N/L,0.116268, ,WA,1,1,2019-07-23 13:32:03
+41_5_ms_post_a,,Nitrate 5 KCl,  8.751,mg N/L,0.269444, ,WA,1,3.02,2019-07-23 21:15:37
+41_5_ms_post_a,,Ammonia 10 KCl,  0.703,mg N/L,0.157819, ,WA,1,1,2019-07-23 13:34:15
+24_5_ms_post_a,,Nitrate 5 KCl,  5.614,mg N/L,0.174320, ,WA,1,3.02,2019-07-23 21:16:34
+24_5_ms_post_a,,Ammonia 10 KCl,  2.143,mg N/L,0.290707, ,WA,1,1,2019-07-23 13:36:27
+CCV,,Nitrate 5 KCl,  5.015,mg N/L,0.463187,0.00,WA,1,1,2019-07-23 19:16:17
+CCB,,Nitrate 5 KCl,  0.052,mg N/L,0.008836,0.00,WA,1,1,2019-07-23 19:18:38
+9_2_pre_a,,Nitrate 5 KCl,  0.168,mg N/L,0.019464, ,WA,1,1,2019-07-23 19:21:00
+9_2_pre_a,,Ammonia 10 KCl,  0.190,mg N/L,0.110536, ,WA,1,1,2019-07-23 13:38:40
+22_2_ms_post_a,,Nitrate 5 KCl,  0.770,mg N/L,0.074570, ,WA,1,1,2019-07-23 19:23:18
+22_2_ms_post_a,,Ammonia 10 KCl,  0.121,mg N/L,0.104135, ,WA,1,1,2019-07-23 13:40:52
+CCV,,Ammonia 10 KCl,  9.856,mg N/L,1.002580,0.00,WA,1,1,2019-07-23 13:43:05
+CCB,,Ammonia 10 KCl, -0.087,mg N/L,0.084969,0.00,WA,1,1,2019-07-23 13:45:18
+6_3_ms_post_a,,Nitrate 5 KCl,  6.708,mg N/L,0.207508, ,WA,1,3.02,2019-07-23 21:17:31
+6_3_ms_post_a,,Ammonia 10 KCl,  0.237,mg N/L,0.114882, ,WA,1,1,2019-07-23 13:47:31
+100_4_pre_a,,Nitrate 5 KCl,  0.589,mg N/L,0.058017, ,WA,1,1,2019-07-23 19:27:54
+100_4_pre_a,,Ammonia 10 KCl,  3.010,mg N/L,0.370779, ,WA,1,1,2019-07-23 13:49:44
+22_2_pre_a,,Nitrate 5 KCl,  1.323,mg N/L,0.125167, ,WA,1,1,2019-07-23 19:30:12
+22_2_pre_a,,Ammonia 10 KCl,  0.417,mg N/L,0.131498, ,WA,1,1,2019-07-23 13:51:57
+50_1_ms_post_a,,Nitrate 5 KCl,  0.280,mg N/L,0.029710, ,WA,1,1,2019-07-23 19:32:30
+50_1_ms_post_a,,Ammonia 10 KCl,  2.789,mg N/L,0.350371, ,WA,1,1,2019-07-23 13:54:11
+100_2_ms_post_a,,Nitrate 5 KCl,  9.111,mg N/L,0.280363, ,WA,1,3.02,2019-07-23 21:18:27
+100_2_ms_post_a,,Ammonia 10 KCl,  0.203,mg N/L,0.111732, ,WA,1,1,2019-07-23 13:56:25
+24_2_pre_a,,Nitrate 5 KCl,  2.618,mg N/L,0.243717, ,WA,1,1,2019-07-23 19:37:06
+24_2_pre_a,,Ammonia 10 KCl,  0.372,mg N/L,0.127297, ,WA,1,1,2019-07-23 13:58:38
+KCl blank 1 n,,Nitrate 5 KCl,  0.059,mg N/L,0.009526, ,WA,1,1,2019-07-23 19:39:24
+KCl blank 1 n,,Ammonia 10 KCl,  0.379,mg N/L,0.127990, ,WA,1,1,2019-07-23 14:00:51
+100_3_pre_b,,Nitrate 5 KCl,  0.978,mg N/L,0.093657, ,WA,1,1,2019-07-23 19:41:43
+100_3_pre_b,,Ammonia 10 KCl,  2.111,mg N/L,0.287766, ,WA,1,1,2019-07-23 14:03:04
+CCV,,Nitrate 5 KCl,  5.092,mg N/L,0.470209,0.00,WA,1,1,2019-07-23 19:44:01
+CCB,,Nitrate 5 KCl,  0.041,mg N/L,0.007830,0.00,WA,1,1,2019-07-23 19:46:23
+22_1_ms_pre_b,,Nitrate 5 KCl,  2.167,mg N/L,0.202476, ,WA,1,1,2019-07-23 19:48:44
+22_1_ms_pre_b,,Ammonia 10 KCl,  2.756,mg N/L,0.347325, ,WA,1,1,2019-07-23 14:05:17
+24_1_ms_post_b,,Nitrate 5 KCl,  5.490,mg N/L,0.170561, ,WA,1,3.02,2019-07-23 21:19:24
+24_1_ms_post_b,,Ammonia 10 KCl,  0.209,mg N/L,0.112236, ,WA,1,1,2019-07-23 14:07:30
+CCV,,Ammonia 10 KCl,  9.560,mg N/L,0.975226,0.00,WA,1,1,2019-07-23 14:09:43
+CCB,,Ammonia 10 KCl, -0.096,mg N/L,0.084141,0.00,WA,1,1,2019-07-23 14:11:58
+41_5_ms_post_b,,Nitrate 5 KCl,  8.913,mg N/L,0.274371, ,WA,1,3.02,2019-07-23 21:20:21
+41_5_ms_post_b,,Ammonia 10 KCl,  0.647,mg N/L,0.152691, ,WA,1,1,2019-07-23 14:14:13
+24_5_ms_post_b,,Nitrate 5 KCl,  5.654,mg N/L,0.175532, ,WA,1,3.02,2019-07-23 21:21:17
+24_5_ms_post_b,,Ammonia 10 KCl,  1.936,mg N/L,0.271641, ,WA,1,1,2019-07-23 14:16:26
+9_2_pre_b,,Nitrate 5 KCl,  0.183,mg N/L,0.020859, ,WA,1,1,2019-07-23 19:57:58
+9_2_pre_b,,Ammonia 10 KCl,  0.133,mg N/L,0.105226, ,WA,1,1,2019-07-23 14:18:39
+22_2_ms_post_b,,Nitrate 5 KCl,  0.735,mg N/L,0.071372, ,WA,1,1,2019-07-23 20:00:16
+22_2_ms_post_b,,Ammonia 10 KCl,  0.074,mg N/L,0.099834, ,WA,1,1,2019-07-23 14:20:53
+6_3_ms_post_b,,Nitrate 5 KCl,  7.026,mg N/L,0.217158, ,WA,1,3.02,2019-07-23 21:22:14
+6_3_ms_post_b,,Ammonia 10 KCl,  0.374,mg N/L,0.127519, ,WA,1,1,2019-07-23 14:23:08
+100_4_pre_b,,Nitrate 5 KCl,  0.609,mg N/L,0.059807, ,WA,1,1,2019-07-23 20:04:57
+100_4_pre_b,,Ammonia 10 KCl,  3.199,mg N/L,0.388221, ,WA,1,1,2019-07-23 14:25:21
+22_2_pre_b,,Nitrate 5 KCl,  1.331,mg N/L,0.125973, ,WA,1,1,2019-07-23 20:06:06
+22_2_pre_b,,Ammonia 10 KCl,  0.606,mg N/L,0.148912, ,WA,1,1,2019-07-23 14:27:34
+50_1_ms_post_b,,Nitrate 5 KCl,  0.245,mg N/L,0.026537, ,WA,1,1,2019-07-23 20:07:02
+50_1_ms_post_b,,Ammonia 10 KCl,  2.753,mg N/L,0.347065, ,WA,1,1,2019-07-23 14:29:47
+CCV,,Nitrate 5 KCl,  4.833,mg N/L,0.446540,0.00,WA,1,1,2019-07-23 20:07:59
+CCB,,Nitrate 5 KCl,  0.023,mg N/L,0.006226,0.00,WA,1,1,2019-07-23 20:08:57
+100_2_ms_post_b,,Nitrate 5 KCl,  9.418,mg N/L,0.289692, ,WA,1,3.02,2019-07-23 21:23:11
+100_2_ms_post_b,,Ammonia 10 KCl,  0.231,mg N/L,0.114248, ,WA,1,1,2019-07-23 14:32:02
+24_2_pre_b,,Nitrate 5 KCl,  2.447,mg N/L,0.228135, ,WA,1,1,2019-07-23 20:10:51
+24_2_pre_b,,Ammonia 10 KCl,  0.372,mg N/L,0.127336, ,WA,1,1,2019-07-23 14:34:16
+CCV,,Ammonia 10 KCl,  9.651,mg N/L,0.983685,0.00,WA,1,1,2019-07-23 14:35:54
+CCB,,Ammonia 10 KCl, -0.057,mg N/L,0.087728,0.00,WA,1,1,2019-07-23 14:37:51
+KCl blank 1test c,,Nitrate 5 KCl,  0.006,mg N/L,0.004660, ,WA,1,1,2019-07-23 20:11:48
+KCl blank 1test c,,Ammonia 10 KCl,  0.159,mg N/L,0.107642, ,WA,1,1,2019-07-23 14:39:39
+KCl blank 1 o,,Nitrate 5 KCl,  0.025,mg N/L,0.006346, ,WA,1,1,2019-07-23 20:12:44
+KCl blank 1 o,,Ammonia 10 KCl,  0.363,mg N/L,0.126501, ,WA,1,1,2019-07-23 14:41:26
+KCl blank 1test d,,Nitrate 5 KCl,  0.003,mg N/L,0.004343, ,WA,1,1,2019-07-23 20:13:41
+KCl blank 1test d,,Ammonia 10 KCl,  0.160,mg N/L,0.107705, ,WA,1,1,2019-07-23 14:43:12
+CCV,,Nitrate 5 KCl,  4.834,mg N/L,0.446600,0.00,WA,1,1,2019-07-23 20:14:38
+CCV,,Ammonia 10 KCl,  9.675,mg N/L,0.985849,0.00,WA,1,1,2019-07-23 14:44:59
+CCB,,Nitrate 5 KCl,  0.032,mg N/L,0.007033,0.00,WA,1,1,2019-07-23 20:15:35
+CCB,,Ammonia 10 KCl, -0.110,mg N/L,0.082865,0.00,WA,1,1,2019-07-23 14:46:47
