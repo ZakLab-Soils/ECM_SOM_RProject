@@ -1,0 +1,1 @@
+This folder stores sequence summary data.
