@@ -2,8 +2,8 @@ README for ECM\_SOM\_RProject code accompanying the manuscript, *Decay
 by ectomycorrhizal fungi couples soil organic matter to nitrogen
 availability*
 ================
-William A. Argiroff, Donald R. Zak, Rima A. Upchurch, Peter T.
-Pellitier, and Julia P. Belke
+William A. Argiroff, Donald R. Zak, Peter T.
+Pellitier, Rima A. Upchurch, and Julia P. Belke
 6/7/2021
 
 # I. Overview
