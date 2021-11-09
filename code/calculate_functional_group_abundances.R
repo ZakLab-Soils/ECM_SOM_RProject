@@ -2,6 +2,8 @@
 
 # Load libraries
 library(tidyverse)
+library(viridis)
+library(ggpubr)
 
 # Source files
 source("code/functions.R")
@@ -142,4 +144,141 @@ saveRDS(soil.fungal.functional.groups.tbl,
         file = "data/working/soil.fungal.functional.groups.tbl.RData")
 saveRDS(roots.fungal.functional.groups.tbl, 
         file = "data/working/roots.fungal.functional.groups.tbl.RData")
+
+#### Genera in key groups ####
+
+# Read in soil functional groups
+soil.ECM.perox.genera.tbl <- as_tibble(read_tsv("data/working/soil.fungal.functional.groups.classified.0.1.txt")) %>% 
+  mutate(NUTRITIONAL.MODE = ifelse(is.na(NUTRITIONAL.MODE), "Uncertain", NUTRITIONAL.MODE), 
+         DECAY = ifelse(is.na(DECAY), "Uncertain", DECAY)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Ectomycorrhizal" & DECAY == "Putatively ligninolytic", 
+                               "ECM.LIG", NA)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Ectomycorrhizal" & DECAY != "Putatively ligninolytic", 
+                               "ECM.NONLIG", FUNGAL.GROUP)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Mycorrhizal" | NUTRITIONAL.MODE == "Arbuscular mycorrhizal" | 
+                                 NUTRITIONAL.MODE == "Putatively mycorrhizal" | 
+                                 NUTRITIONAL.MODE == "Ericoid mycorrhizal" | NUTRITIONAL.MODE == "Orchid mycorrhizal", 
+                               "OTHER.MYCORRHIZA", FUNGAL.GROUP)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Saprotrophic" & DECAY == "White-rot or ligninolytic litter decay", 
+                               "SAP.LIG", FUNGAL.GROUP)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Saprotrophic" & DECAY != "White-rot or ligninolytic litter decay", 
+                               "SAP.NONLIG", FUNGAL.GROUP)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(is.na(FUNGAL.GROUP), "OTHER", FUNGAL.GROUP)) %>% 
+  select(GENUS, FUNGAL.GROUP) %>% 
+  # Add genus abundances
+  inner_join(., soil.genus.trim.tbl, by = "GENUS") %>% 
+  dplyr::filter(FUNGAL.GROUP == "ECM.LIG") %>% 
+  dplyr::group_by(GENUS) %>% 
+  dplyr::summarise(GENUS.SUM = sum(COUNT)) %>% 
+  dplyr::ungroup() %>% 
+  dplyr::mutate(GROUP.COUNT = sum(GENUS.SUM)) %>% 
+  dplyr::mutate(GENUS.GROUP.PERC = (100 * (GENUS.SUM / GROUP.COUNT))) %>% 
+  dplyr::arrange(desc(GENUS.GROUP.PERC)) %>% 
+  dplyr::mutate(GENUS = factor(GENUS, levels = unique(GENUS)), 
+                SUBSTRATE = "Soil")
+
+roots.lig.sap.genera.tbl <- as_tibble(read_tsv("data/working/roots.fungal.functional.groups.classified.0.1.txt")) %>% 
+  mutate(NUTRITIONAL.MODE = ifelse(is.na(NUTRITIONAL.MODE), "Uncertain", NUTRITIONAL.MODE), 
+         DECAY = ifelse(is.na(DECAY), "Uncertain", DECAY)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Ectomycorrhizal" & DECAY == "Putatively ligninolytic", 
+                               "ECM.LIG", NA)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Ectomycorrhizal" & DECAY != "Putatively ligninolytic", 
+                               "ECM.NONLIG", FUNGAL.GROUP)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Mycorrhizal" | NUTRITIONAL.MODE == "Arbuscular mycorrhizal" | 
+                                 NUTRITIONAL.MODE == "Putatively mycorrhizal" | 
+                                 NUTRITIONAL.MODE == "Ericoid mycorrhizal" | NUTRITIONAL.MODE == "Orchid mycorrhizal", 
+                               "OTHER.MYCORRHIZA", FUNGAL.GROUP)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Saprotrophic" & DECAY == "White-rot or ligninolytic litter decay", 
+                               "SAP.LIG", FUNGAL.GROUP)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(NUTRITIONAL.MODE == "Saprotrophic" & DECAY != "White-rot or ligninolytic litter decay", 
+                               "SAP.NONLIG", FUNGAL.GROUP)) %>% 
+  mutate(FUNGAL.GROUP = ifelse(is.na(FUNGAL.GROUP), "OTHER", FUNGAL.GROUP)) %>% 
+  select(GENUS, FUNGAL.GROUP) %>% 
+  # Add genus abundances
+  inner_join(., roots.genus.trim.tbl, by = "GENUS") %>% 
+  dplyr::filter(FUNGAL.GROUP == "SAP.LIG") %>% 
+  dplyr::group_by(GENUS) %>% 
+  dplyr::summarise(GENUS.SUM = sum(COUNT)) %>% 
+  dplyr::ungroup() %>% 
+  dplyr::mutate(GROUP.COUNT = sum(GENUS.SUM)) %>% 
+  dplyr::mutate(GENUS.GROUP.PERC = (100 * (GENUS.SUM / GROUP.COUNT))) %>% 
+  dplyr::arrange(desc(GENUS.GROUP.PERC)) %>% 
+  dplyr::mutate(GENUS = factor(GENUS, levels = unique(GENUS)), 
+                SUBSTRATE = "Decaying fine roots")
+
+# Plots
+soil.genera.plot <- ggplot() + 
+  
+  # Bars
+  geom_bar(data = soil.ECM.perox.genera.tbl, 
+           aes(x = SUBSTRATE, y = GENUS.GROUP.PERC, fill = GENUS), 
+           stat = "identity", 
+           position = "stack", 
+           colour = "black") + 
+  
+  # Titles
+  labs(title = "ECM with peroxidases\nin soil", 
+       x = NULL, 
+       y = "% of sequences in functional group") + 
+  
+  guides(fill = guide_legend(title = "Genus")) + 
+  
+  # Format
+  theme(axis.line = element_line(colour = "black", size = 0.5), 
+        panel.background = element_rect(fill = NA), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        plot.title = element_text(size = 12, hjust = 0.5), 
+        axis.title.x = element_blank(), 
+        axis.title.y = element_text(colour = "black", size = 7),  
+        # x axis text
+        axis.text.x = element_blank(), 
+        axis.ticks.x = element_blank(), 
+        axis.text.y = element_text(colour = "black", size = 6))
+
+# Plots
+roots.genera.plot <- ggplot() + 
+  
+  # Bars
+  geom_bar(data = roots.lig.sap.genera.tbl, 
+           aes(x = SUBSTRATE, y = GENUS.GROUP.PERC, fill = GENUS), 
+           stat = "identity", 
+           position = "stack", 
+           colour = "black") + 
+  
+  # Titles
+  labs(title = "Ligninolytic saprotrophs\nin decaying fine roots", 
+       x = NULL, 
+       y = "% of sequences in functional group") + 
+  
+  guides(fill = guide_legend(title = "Genus")) + 
+  
+  # Format
+  theme(axis.line = element_line(colour = "black", size = 0.5), 
+        panel.background = element_rect(fill = NA), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        plot.title = element_text(size = 12, hjust = 0.5), 
+        axis.title.x = element_blank(), 
+        axis.title.y = element_text(colour = "black", size = 7),  
+        # x axis text
+        axis.text.x = element_blank(), 
+        axis.ticks.x = element_blank(), 
+        axis.text.y = element_text(colour = "black", size = 6))
+
+# Create fine root mass loss
+genus.groups.plot <- ggarrange(soil.genera.plot, 
+                               roots.genera.plot, 
+                               ncol = 2, 
+                               nrow = 1, 
+                               align = "hv")
+
+# Save Figure
+ggsave(filename = "figures/genus_functional_groups.png",
+       genus.groups.plot,
+       device = "png",
+       dpi = 600,
+       width = 6.5,
+       height = 4,
+       units = "in")
 
