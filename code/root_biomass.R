@@ -94,8 +94,8 @@ root.plot <- ggplot() +
         axis.text.x = element_text(colour = "black", size = 6), 
         axis.text.y = element_text(colour = "black", size = 6))
 
-# Save Figure S6
-ggsave(filename = "figures/FigureS6.png",
+# Save Figure S2
+ggsave(filename = "figures/FigureS2.png",
        root.plot,
        device = "png",
        dpi = 600,
