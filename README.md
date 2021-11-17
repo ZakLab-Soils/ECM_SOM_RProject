@@ -3,8 +3,8 @@ by ectomycorrhizal fungi couples soil organic matter to nitrogen
 availability*
 ================
 William A. Argiroff, Donald R. Zak, Peter T.
-Pellitier, Rima A. Upchurch, and Julia P. Belke
-Ecology Letters. 2021;00:1–14 DOI:10.1111/ele.13923
+Pellitier, Rima A. Upchurch, and Julia P. Belke.
+Ecology Letters. 2021, 00:1–14  https://doi.org/10.1111/ele.13923
 
 # I. Overview
 
