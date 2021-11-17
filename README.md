@@ -4,7 +4,7 @@ availability*
 ================
 William A. Argiroff, Donald R. Zak, Peter T.
 Pellitier, Rima A. Upchurch, and Julia P. Belke
-6/7/2021
+Ecology Letters. 2021;00:1–14 DOI:10.1111/ele.13923
 
 # I. Overview
 
@@ -135,7 +135,7 @@ We produced Fig. **S1** using the code contained in `map.R`.
 
 ### 2. Fig. **S2**
 
-Code to produce Fig. **S2** is contained in `environmental_summary.R`.
+We produced Fig. **S2** is contained in `N_availability_covariation.R`.
 
 ### 3. Fig. **S3**
 
@@ -153,15 +153,35 @@ Code to produce Fig. **S5** is contained in `sequence_summary.R`.
 
 ### 6. Fig. **S6**
 
-We produced Fig. **S7** using code contained in `root_biomass.R`.
+We produced Fig. **S6** using code contained in `calculate_functional_group_abundances.R`.
 
 ### 7. Fig. **S7**
 
-We produced Fig. **S7** using code contained in `gamm.R`.
+We produced Fig. **S7** using code contained in `root_biomass.R`.
 
 ### 8. Fig **S8**
 
-Code to produce Fig. **S8** is contained in `SOM_summary.R`.
+Code to produce Fig. **S8** is contained in `fungal_community_size.R`.
+
+### 9. Fig **S9**
+
+Code to produce Fig. **S9** is contained in `gamm.R`.
+
+### 10. Fig **S10**
+
+Code to produce Fig. **S10** is contained in `gamm.R`.
+
+### 11. Fig **S11**
+
+Code to produce Fig. **S11** is contained in `SOM_summary.R`.
+
+### 12. Fig **S12**
+
+Code to produce Fig. **S12** is contained in `fine_root_mass_loss.R`.
+
+### 13. Fig **S13**
+
+Code to produce Fig. **S13** is contained in `fine_root_mass_loss.R`.
 
 ## C. Supplemental tables
 
