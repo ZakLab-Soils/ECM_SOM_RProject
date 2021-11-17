@@ -139,8 +139,7 @@ We produced Fig. **S2** is contained in `N_availability_covariation.R`.
 
 ### 3. Fig. **S3**
 
-We produced Fig. **S3** using the code contained in
-`sequence_summary.R`.
+No code associated with Fig. **S3**.
 
 ### 4. Fig. **S4**
 
